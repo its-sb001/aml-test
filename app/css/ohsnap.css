@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+#ohsnap {
+    z-index: 9999999999999999999999999999999;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    position: relative;
+    bottom: 0px;
+    right: 1px;
+    float: right;
+    clear: right;
+    background-color: #b37a7a;
+    webkit-box-shadow: 0px 0px 63px 12px #080a0d;
+    -moz-box-shadow: 0px 0px 63px 12px #080a0d;
+    box-shadow: 0px 0px 63px 12px #080a0d;
+}
+.alert-red {
+    color: white;
+    background: #cd4a4a;
+}
+.alert-green {
+    color: white;
+    background: #37BC9B;
+}
+.alert-orange {
+    color: white;
+    background: #E9573F;
+}
